@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/makomori/Sharaku.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/makomori26'
   s.ios.deployment_target = '8.3'
-  s.source_files = 'Sharaku/Classes/**/*'
+  s.source_files = 'Sharaku/Classes/**/*.{swift}'
   s.resources = ['Sharaku/Classes/**/*.xib', 'Sharaku/**/*.xcassets']
   s.resource_bundles = {
   }
